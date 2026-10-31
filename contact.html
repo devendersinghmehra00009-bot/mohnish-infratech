@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Us | Mohnish Infratech</title>
+<meta name="description" content="Contact Mohnish Infratech, H-110 Sector 63 Noida. Call, WhatsApp or send an enquiry.">
+<meta name="theme-color" content="#060b19">
+<meta property="og:title" content="Contact Us | Mohnish Infratech">
+<meta property="og:description" content="Contact Mohnish Infratech, H-110 Sector 63 Noida. Call, WhatsApp or send an enquiry.">
+<meta property="og:image" content="images/banner.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Gujarati:wght@400;600;700&family=Noto+Sans+Gurmukhi:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="contact">
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Mohnish Infratech"><img src="images/logo-round.png" width="48" height="48" alt=""><span class="brand-t"><b>MOHNISH</b><small>INFRATECH</small></span></a>
+    <nav id="nav" class="nav">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About Us</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" class=active data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <select id="lang" aria-label="Language"><option value="en">English</option><option value="hi">हिन्दी</option><option value="gu">ગુજરાતી</option><option value="pa">ਪੰਜਾਬੀ</option></select>
+      <a class="btn btn-sm" href="contact.html" data-i18n="cta_free">Free Consultation</a>
+      <button id="burger" class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+<div class="banner"><div class="wrap"><span class="kicker">Mohnish Infratech</span><h1 class="gold-text" data-i18n="contact_title">Contact Us</h1><p data-i18n="contact_sub">Send us your enquiry and we will call you back.</p></div></div>
+<section>
+  <div class="wrap contact-grid">
+    <div class="card">
+      <span id="projPill" class="proj-pill"></span>
+      <form id="contactForm" class="form" novalidate>
+        <input type="hidden" name="type" value="contact">
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label for="cname"><span data-i18n="f_name">Full Name</span><input id="cname" type="text" name="name" required maxlength="80" autocomplete="name"></label>
+        <label for="cphone"><span data-i18n="f_phone">Mobile Number</span><input id="cphone" type="tel" name="phone" required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="98XXXXXXXX"></label>
+        <label for="cemail"><span data-i18n="f_email">Email (optional)</span><input id="cemail" type="email" name="email" maxlength="120" autocomplete="email"></label>
+        <label for="csource"><span data-i18n="f_source">How did you hear about us?</span><select id="csource" name="source" required>
+  <option value="" data-i18n="f_select">Select one</option>
+  <option value="Google Search" data-i18n="src_google">Google Search</option>
+  <option value="Facebook" data-i18n="src_facebook">Facebook</option>
+  <option value="Instagram" data-i18n="src_instagram">Instagram</option>
+  <option value="YouTube" data-i18n="src_youtube">YouTube</option>
+  <option value="WhatsApp" data-i18n="src_whatsapp">WhatsApp</option>
+  <option value="Friend / Relative" data-i18n="src_friend">Friend / Relative</option>
+  <option value="Hoarding / Newspaper" data-i18n="src_ad">Hoarding / Newspaper</option>
+  <option value="Other" data-i18n="src_other">Other</option>
+</select></label>
+        <label for="cmsg"><span data-i18n="f_msg">Your Message</span><textarea id="cmsg" name="message" rows="4" maxlength="1500"></textarea></label>
+        <p class="msg" role="alert"></p>
+        <button class="btn btn-block" type="submit" data-i18n="f_send">Send Enquiry</button>
+        <a class="btn btn-wa btn-block wa-fallback" hidden target="_blank" rel="noopener" href="#" data-i18n="btn_msg_wa">Message on WhatsApp</a>
+      </form>
+    </div>
+    <div class="card">
+      <h3 data-i18n="ci_title">Get in Touch</h3>
+      <div class="info-list">
+        <a href="tel:+918826052530"><small data-i18n="ci_phone">Phone</small><b>+91 88260 52530</b></a>
+        <a href="mailto:mohnishbawankar533@gmail.com"><small data-i18n="ci_email">Email</small><b>mohnishbawankar533@gmail.com</b></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=H-110+Sector+63+Noida" target="_blank" rel="noopener"><small data-i18n="ci_office">Office</small><b>H-110, Sector 63, Noida, Uttar Pradesh, India</b></a>
+      </div>
+      <div class="social" data-social></div>
+      <iframe class="mapframe" title="Office location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=H-110%20Sector%2063%20Noida&z=15&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap grid foot">
+    <div>
+      <a class="brand" href="index.html"><img src="images/logo-round.png" width="48" height="48" alt=""><span class="brand-t"><b>MOHNISH</b><small>INFRATECH</small></span></a>
+      <p class="tagline" data-i18n="foot_tag">Where Vision Meets Opportunity</p>
+      <div class="social" data-social></div>
+    </div>
+    <div>
+      <h4 data-i18n="foot_links">Quick Links</h4>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About Us</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </div>
+    <div>
+      <h4 data-i18n="foot_contact">Contact</h4>
+      <a href="tel:+918826052530">+91 88260 52530</a>
+      <a href="mailto:mohnishbawankar533@gmail.com">mohnishbawankar533@gmail.com</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=H-110+Sector+63+Noida" target="_blank" rel="noopener">H-110, Sector 63, Noida, Uttar Pradesh, India</a>
+    </div>
+  </div>
+  <div class="wrap copy">© <span id="yr">2026</span> Mohnish Infratech. <span data-i18n="foot_rights">All rights reserved.</span></div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/918826052530?text=Hello%20Mohnish%20Infratech%2C%20I%20want%20to%20know%20more%20about%20your%20projects." target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4C9.4 4 4 9.2 4 15.7c0 2.3.7 4.4 1.9 6.200L4.500 27.500l5.800-1.500c1.600.9 3.500 1.400 5.700 1.400 6.600 0 12-5.200 12-11.700S22.600 4 16 4z"/><path d="M12 11.500c.3 2.800 3.700 6.800 7.800 7.600l1.500-1.700-2.700-1.500-1.200 1c-1.300-.5-2.700-1.800-3.300-3.200l1-1.100-1.400-2.700z" fill="#fff" stroke="none"/></svg>
+</a>
+
+<div id="lightbox" class="lightbox" hidden><button class="lb-close" aria-label="Close">×</button><img alt=""></div>
+
+<div id="leadModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="popTitle">
+  <div class="modal-box">
+    <button type="button" class="modal-x" id="popX" aria-label="Close">×</button>
+    <div id="popFormWrap">
+      <img class="pop-logo" src="images/logo-round.png" alt="" width="76" height="76">
+      <h3 id="popTitle" data-i18n="pop_title">Welcome to Mohnish Infratech</h3>
+      <p class="sub" data-i18n="pop_sub">Share your details. Our team will contact you with project information.</p>
+      <form id="popForm" class="form" novalidate>
+        <input type="hidden" name="type" value="popup">
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label for="pname"><span data-i18n="f_name">Full Name</span><input id="pname" type="text" name="name" required maxlength="80" autocomplete="name"></label>
+        <label for="pphone"><span data-i18n="f_phone">Mobile Number</span><input id="pphone" type="tel" name="phone" required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="98XXXXXXXX"></label>
+        <label for="pemail"><span data-i18n="f_email">Email (optional)</span><input id="pemail" type="email" name="email" maxlength="120" autocomplete="email"></label>
+        <label for="psource"><span data-i18n="f_source">How did you hear about us?</span><select id="psource" name="source" required>
+  <option value="" data-i18n="f_select">Select one</option>
+  <option value="Google Search" data-i18n="src_google">Google Search</option>
+  <option value="Facebook" data-i18n="src_facebook">Facebook</option>
+  <option value="Instagram" data-i18n="src_instagram">Instagram</option>
+  <option value="YouTube" data-i18n="src_youtube">YouTube</option>
+  <option value="WhatsApp" data-i18n="src_whatsapp">WhatsApp</option>
+  <option value="Friend / Relative" data-i18n="src_friend">Friend / Relative</option>
+  <option value="Hoarding / Newspaper" data-i18n="src_ad">Hoarding / Newspaper</option>
+  <option value="Other" data-i18n="src_other">Other</option>
+</select></label>
+        <p class="msg" role="alert"></p>
+        <button class="btn btn-block" type="submit" data-i18n="pop_btn">Get Details</button>
+        <a class="btn btn-wa btn-block wa-fallback" hidden target="_blank" rel="noopener" href="#" data-i18n="btn_msg_wa">Message on WhatsApp</a>
+      </form>
+    </div>
+    <div id="popThanks" hidden class="thanks">
+      <div class="wcard">
+        <img src="images/logo-round.png" alt="" width="84" height="84">
+        <h3 data-i18n="wc_title">Welcome to Mohnish Infratech</h3>
+        <p data-i18n="wc_sub">Thank you for your interest. Our team will contact you shortly. Keep our details handy.</p>
+        <div class="rows">
+          <a href="tel:+918826052530"><small data-i18n="ci_phone">Phone</small>+91 88260 52530</a>
+          <a href="mailto:mohnishbawankar533@gmail.com"><small data-i18n="ci_email">Email</small>mohnishbawankar533@gmail.com</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=H-110+Sector+63+Noida" target="_blank" rel="noopener"><small data-i18n="ci_office">Office</small>H-110, Sector 63, Noida, Uttar Pradesh, India</a>
+        </div>
+      </div>
+      <a class="btn btn-wa btn-block" target="_blank" rel="noopener" href="https://wa.me/918826052530?text=Hello%20Mohnish%20Infratech%2C%20I%20want%20to%20know%20more%20about%20your%20projects." data-i18n="pop_chat">Chat on WhatsApp</a>
+      <button type="button" class="btn btn-line btn-block" id="popClose" data-i18n="pop_close">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/config.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
