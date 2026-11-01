@@ -100,6 +100,10 @@
     ['pop_chat','Chat on WhatsApp','WhatsApp पर चैट करें','WhatsApp પર ચેટ કરો','WhatsApp ਤੇ ਚੈਟ ਕਰੋ'],
     ['pop_close','Close','बंद करें','બંધ કરો','ਬੰਦ ਕਰੋ'],
 
+    ['doc_title','Project Documents','प्रोजेक्ट दस्तावेज़','પ્રોજેક્ટ દસ્તાવેજો','ਪ੍ਰੋਜੈਕਟ ਦਸਤਾਵੇਜ਼'],
+    ['doc_sub','Download the brochure and plan layout for each project.','हर प्रोजेक्ट का ब्रोशर और प्लॉट लेआउट डाउनलोड करें।','દરેક પ્રોજેક્ટનું બ્રોશર અને પ્લોટ લેઆઉટ ડાઉનલોડ કરો.','ਹਰ ਪ੍ਰੋਜੈਕਟ ਦਾ ਬ੍ਰੋਸ਼ਰ ਅਤੇ ਪਲਾਟ ਲੇਆਉਟ ਡਾਊਨਲੋਡ ਕਰੋ।'],
+    ['doc_brochure','Brochure (PDF)','ब्रोशर (PDF)','બ્રોશર (PDF)','ਬ੍ਰੋਸ਼ਰ (PDF)'],
+    ['doc_plan','Plan Layout (PDF)','प्लॉट लेआउट (PDF)','પ્લોટ લેઆઉટ (PDF)','ਪਲਾਟ ਲੇਆਉਟ (PDF)'],
     ['foot_links','Quick Links','त्वरित लिंक','ઝડપી લિંક્સ','ਤੁਰੰਤ ਲਿੰਕ'],
     ['foot_contact','Contact','संपर्क','સંપર્ક','ਸੰਪਰਕ'],
     ['foot_rights','All rights reserved.','सर्वाधिकार सुरक्षित।','સર્વાધિકાર સુરક્ષિત.','ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ।']
